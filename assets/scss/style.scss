@@ -1,0 +1,48 @@
+@mixin background{background-image: linear-gradient(45deg, #8ef0f5 12.50%, #fac000 12.50%, #fac000 25%, #ed5b45 25%, #ed5b45 37.50%, #8c3be3 37.50%, #8c3be3 50%, #8ef0f5 50%, #8ef0f5 62.50%, #fac000 62.50%, #fac000 75%, #ed5b45 75%, #ed5b45 87.50%, #8c3be3 87.50%, #8c3be3 100%);} 
+
+@mixin bgsize{background-size: 169.71px 169.71px;}
+
+
+
+body{
+@include background;
+@include bgsize;
+color:white;
+height:100vh;
+font-family: Arial, Helvetica, sans-serif;
+padding: 0;
+margin:0;
+position: relative;
+h1{
+    font-size: 10rem;
+   text-align: center;
+   padding-top: 14%;
+   padding-bottom: 0;
+   margin: 0;
+   line-height: 120px;
+    
+}
+h3{
+    margin-top:0;
+    font-size: 3rem;
+   text-align: center;
+
+}
+
+}
+div{
+    height: 100px;
+    width:100px;
+    background: #fac000;
+    text-align: center;
+    border-radius: 100px;
+    position: absolute;
+    margin-left: 75%;
+    transform: translateY(-274%);
+    
+    
+  h4{
+      margin-top: 25%;
+      font-size: 3rem;
+  }
+}
